@@ -89,24 +89,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
+        title: 'Real estate project',
         description: 'Web Design',
-        bgImage: '/work-1.png',
+        bgImage: '/real-estate-project.png',
+        url: "https://eavetopinfra.vercel.app/",
     },
     {
-        title: 'Geo based app',
+        title: 'Travel Website',
         description: 'Mobile App',
-        bgImage: '/work-2.png',
+        bgImage: '/Travel.png',
+        url: "https://firstrepo-red.vercel.app/",
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Property Website',
+        description: '/Realestate.png',
+        bgImage: '/Realestate.png',
+        url: "https://real-es-mu.vercel.app/",
     },
     {
-        title: 'UI/UX designing',
+        title: 'Construction Website',
         description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        bgImage: '/Eavetop.png',
+        url: "#",
     },
 ]
 
