@@ -123,7 +123,7 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'React Js, Next Js, Java,Strapi, MS SQL' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Com  in  Computer Application' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Com  in  Computer Application', description1: 'Full-Stack Developer Besant Technologies, Bengaluru' },           
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
