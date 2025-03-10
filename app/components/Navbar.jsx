@@ -41,7 +41,7 @@ import React, { useEffect, useRef, useState } from 'react'
             >
                 <a href="#top">
 
-                    <Image alt='logo' src={ isDarkMode ? assets.logo_dark : assets.logo } className='w-28 cursor-pointer mr-14' />
+                    <Image alt='logo' src={ isDarkMode ? assets.logo_dark : assets.logo } className='w-12 cursor-pointer mr-14' />
                 </a>
 
                 <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : `bg-white 

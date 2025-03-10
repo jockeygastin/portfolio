@@ -68,7 +68,7 @@ const About = ({ isDarkMode }) => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
           >
-            {infoList.map(({ icon, iconDark, title, description }, index) => (
+            {infoList.map(({ icon, iconDark, title, description, misc }, index) => (
               <motion.li
                whileHover={{ scale: 1.05 }}
                 className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-poiner hover:bg-lightHover
@@ -84,9 +84,12 @@ const About = ({ isDarkMode }) => {
                 <h3 className="my-4 font-semibold text-gray-700 dark:text-white">
                   {title}
                 </h3>
-                <p className="text-gray-600 text-sm dark:text-white/80">
+                <div className="text-gray-600 text-sm dark:text-white/80">
                   {description}
-                </p>
+                </div>
+                <div className="text-gray-600 text-sm dark:text-white/80">
+                  {misc}
+                </div>
               </motion.li>
             ))}
           </motion.ul>

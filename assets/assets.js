@@ -11,8 +11,9 @@ import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
-import logo from './logo.png';
-import logo_dark from './logo_dark.png';
+// import logo from './JG2.png';
+import logo from './JG2.png';
+import logo_dark from './JG2.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import profile_img from './profile-img.png';
@@ -39,6 +40,8 @@ import programs from './programs.png';
 import backend from './backend.png';
 import database from './database.png';
 import wordpress from './wordp.png';
+import inkscape from './inkscape-logo.svg';
+import nextjs from './nextjs.png';
 // import resume from './fullstack-developer.pdf';
 
 export const assets = {
@@ -59,6 +62,7 @@ export const assets = {
     git,
     mongodb,
     right_arrow_white,
+    // JG2,
     logo,
     logo_dark,
     mail_icon,
@@ -83,6 +87,8 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
+    inkscape,
+    nextjs,
     // resume
 
 };
@@ -115,18 +121,18 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.programs, title: 'Frontend', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.backend, title: 'Backend', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.database, title: 'Database', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.wordpress, title: 'Wordpress', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.programs, title:'Frontend', description: 'Motivated and detail-oriented Frontend Developer with 8 months of hands-on experience in designing and building responsive, user-friendly websites and web applications. Web development is the process of building, programming...', link: '' },
+    { icon: assets.backend, title: 'Backend', description: 'Enthusiastic and detail-oriented Backend Developer with 8 months of experience in building and managing server-side applications using Java (Spring Boot) and Strapi. Proficient in designing RESTful APIs, database management (MySQL and MS SQL),Quick learner with a passion for problem-solving and staying updated with backend technologies....', link: '' },
+    { icon: assets.database, title: 'Database', description: 'A database in MS SQL is a structured collection of data stored and managed by Microsoft SQL Server. It consists of tables for storing data, schemas to organize these tables, and various objects like views, stored procedures, functions, indexes, and triggers to efficiently handle data operations.....', link: '' },
+    { icon: assets.wordpress, title: 'Wordpress', description: 'WordPress is a popular content management system (CMS) that allows users to easily create, manage, and publish websites and blogs without needing to code. Built on PHP and using MySQL for its database, WordPress is open-source and highly customizable through themes and plugins....', link: '' },
 ]
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'React Js, Next Js, Java,Strapi, MS SQL' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Com  in  Computer Application', description1: 'Full-Stack Developer Besant Technologies, Bengaluru' },           
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education',description:`Full-Stack Developer Besant Technologies Bengaluru`},           
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.inkscape, assets.nextjs, assets.figma, assets.git
 ];
