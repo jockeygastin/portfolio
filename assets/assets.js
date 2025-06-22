@@ -3,6 +3,7 @@ import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
+
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
@@ -16,10 +17,12 @@ import logo from './JG2.png';
 import logo_dark from './JG2.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
+
 import profile_img from './profile-img.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
+
 import moon_icon from './moon_icon.png';
 import sun_icon from './sun_icon.png';
 import arrow_icon from './arrow-icon.png';
@@ -121,8 +124,8 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.programs, title:'Frontend', description: 'Motivated and detail-oriented Frontend Developer with 8 months of hands-on experience in designing and building responsive, user-friendly websites and web applications. Web development is the process of building, programming...', link: '' },
-    { icon: assets.backend, title: 'Backend', description: 'Enthusiastic and detail-oriented Backend Developer with 8 months of experience in building and managing server-side applications using Java (Spring Boot) and Strapi. Proficient in designing RESTful APIs, database management (MySQL and MS SQL),Quick learner with a passion for problem-solving and staying updated with backend technologies....', link: '' },
+    { icon: assets.programs, title:'Frontend', description: 'Motivated and detail-oriented Frontend Developer with 1 year of hands-on experience in designing and building responsive, user-friendly websites and web applications. Web development is the process of building, programming...', link: '' },
+    { icon: assets.backend, title: 'Backend', description: 'Enthusiastic and detail-oriented Backend Developer with 1 year of experience in building and managing server-side applications using Java (Spring Boot) and Strapi. Proficient in designing RESTful APIs, database management (MySQL and MS SQL),Quick learner with a passion for problem-solving and staying updated with backend technologies....', link: '' },
     { icon: assets.database, title: 'Database', description: 'A database in MS SQL is a structured collection of data stored and managed by Microsoft SQL Server. It consists of tables for storing data, schemas to organize these tables, and various objects like views, stored procedures, functions, indexes, and triggers to efficiently handle data operations.....', link: '' },
     { icon: assets.wordpress, title: 'Wordpress', description: 'WordPress is a popular content management system (CMS) that allows users to easily create, manage, and publish websites and blogs without needing to code. Built on PHP and using MySQL for its database, WordPress is open-source and highly customizable through themes and plugins....', link: '' },
 ]
@@ -130,7 +133,7 @@ export const serviceData = [
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'React Js, Next Js, Java,Strapi, MS SQL' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education',description:`Full-Stack Developer Besant Technologies Bengaluru`},           
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 7 projects' }
 ];
 
 export const toolsData = [

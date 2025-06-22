@@ -3,11 +3,14 @@ import Image from 'next/image'
 import React from 'react'
 import { motion } from 'motion/react'
 
+
+
 const Services = () => {
-  return (
+  return (                  
 
     <motion.div
       initial={{ opacity: 0}}
+      
       whileInView={{ opacity: 1}}
       transition={{ duration: 0.5}}
 
@@ -35,6 +38,7 @@ const Services = () => {
       whileInView={{ opacity: 1}}
       transition={{ duration: 0.6, delay: 0.9 }} 
       className='grid grid-cols-auto gap-6 my-10'>
+      
           {serviceData.map(({icon, title, description, link}, index) => (
             <motion.div 
             whileHover={{scale: 1.05}}

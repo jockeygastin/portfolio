@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "motion/react";
 
 const Work = (isDarkMode) => {
+  
   return (
 
     <motion.div
@@ -29,7 +30,7 @@ const Work = (isDarkMode) => {
       whileInView={{opacity: 1}}
       transition={{duration: 0.5, delay: 0.7}} 
        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
-        Welcom to my web development portfolio! Explore a collection of projects
+        Welcome to my web development portfolio! Explore a collection of projects
         showcasing my expertise in full-stack developemnt.
       </motion.p>
 

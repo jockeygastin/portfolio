@@ -40,7 +40,6 @@ import React, { useEffect, useRef, useState } from 'react'
                bg-opacity-50 backdrop-blur-lg shadow-sm  dark:bg-darkTheme dark:shadow-white/20"  : ""}`}
             >
                 <a href="#top">
-
                     <Image alt='logo' src={ isDarkMode ? assets.logo_dark : assets.logo } className='w-12 cursor-pointer mr-14' />
                 </a>
 
