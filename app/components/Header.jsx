@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 const Header = () => {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 pt-0 md:pt-20">
+    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 pt-0 md:pt-0">
       <motion.div
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
@@ -14,7 +14,7 @@ const Header = () => {
         <Image
           src={assets.profile_img}
           alt=""
-          className="md:mt-0 rounded-full w-32"
+          className="md:mt-20 rounded-full w-32"
         />
       </motion.div>
 
@@ -31,7 +31,7 @@ const Header = () => {
       initial={{y:-30, opacity:0}}
       whileInView={{y:0, opacity:1}}
       transition={{duration: 0.8, delay: 0.5}}
-      className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">
+      className="text-2xl sm:text-5xl lg:text-[50px] font-Ovo">
         Fullstack Web Developer Based in Bengaluru.{" "}
       </motion.h1>
 
