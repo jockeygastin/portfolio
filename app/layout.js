@@ -27,8 +27,8 @@ export const metadata = {
     images: [
       {
         url: "https://portfolio-iota-wine-60.vercel.app/og-image.png",
-        // width: 1200,
-        // height: 630,
+           width: 1200,
+           height: 630,
       },
     ],
     type: "website",
